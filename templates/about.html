@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+
+{% block title %}
+About page
+{% endblock %}
+
+{% block body %}
+ <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-9">Diabetes Prediction</h1>
+      <p>This is a diabetes prediction application. Here, two factors are considered for predicting whether the person entering has diabetes or not.
+         First is the count of the fasting sugar. If it exceeds a certain number, then the person might be having diabetes. Next, is the check whether the
+         person is having frequent urination or not. If it is true, then the person might be having diabetes. If it is false, the person might not be
+         having diabetes. These two factors have been taken based on the dataset and applying various prediction models to it.</p>
+     </div>
+  </div>    
+{% endblock %}
